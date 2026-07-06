@@ -25,5 +25,7 @@ public class ButtonController : MonoBehaviour
         {
             GlobalManager.Scene = Scenes.main;
         }
+
+        // 더미로 변형
     }
 }
