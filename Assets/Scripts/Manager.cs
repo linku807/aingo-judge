@@ -30,10 +30,12 @@ namespace Manager
                 OnSceneChanged?.Invoke(scene);
             }
         }
+
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void Initialize()
         {
             scene = Scenes.main;
+            
         }
     }
 }
