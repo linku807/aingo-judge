@@ -13,7 +13,7 @@ public class AiManager : MonoBehaviour
 
     public TextMeshProUGUI dialogueText;
     public TMP_InputField inputField;
-    private static string api_key = "AIzaSyBrlIYtVv7nBqCPTqls2NIBCdJiIlNB9yA";
+    private static string api_key = "";
     private static string model = "gemini-3.5-flash-lite";
     private IChatClient client = new Client(apiKey: AiManager.api_key).AsIChatClient(AiManager.model);
 
