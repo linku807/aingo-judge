@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "aingo-judge.slnx",
+    "dotnet.defaultSolution": "judge ai.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
