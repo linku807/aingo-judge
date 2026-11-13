@@ -1,11 +1,7 @@
-using System;
 using System.Text;
-using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 using Google.GenAI;
-using Google.GenAI.Types;
 using Microsoft.Extensions.AI;
 using TMPro;
 using Dotenv;
